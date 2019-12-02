@@ -13,15 +13,18 @@ https://www.digitalocean.com/community/tutorials/how-to-set-up-laravel-nginx-and
 ## Changes 
 
 1. Docker’s composer image 
+
 docker run --rm --interactive --tty \
   --volume $PWD:/app \
   composer install
 
 2. Dockerfle
+
 ... \
 nano
 
 3. Permission
+
 sudo chmod 777 -R storage/
 sudo chmod 777 -R bootstrap/cache/
 sudo chmod 777 .env
