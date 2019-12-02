@@ -4,7 +4,7 @@
 
 One Ubuntu 18.04 server, and a non-root user with sudo privileges. Follow the Initial Server Setup with Ubuntu 18.04 tutorial to set this up.
 
-Docker installed?n Ubuntu 18.04.
+Docker installed, on Ubuntu 18.04.
 
 Docker Compose installed, on Ubuntu 18.04.
 
