@@ -45,7 +45,9 @@ services:
       - "3306:3306"
     environment:
       MYSQL_DATABASE: laravel
-      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_USER: adminer
+      MYSQL_PASSWORD: adminerpass
+      MYSQL_ROOT_PASSWORD: E4eDUpME
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:
